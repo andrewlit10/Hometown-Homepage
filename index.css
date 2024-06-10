@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-size: 20px;
+}
+.hero-div {
+    background-image: url("images/orange_circle_fountain.jpg");
+    max-width: 100%;
+    background-position: center;
+    min-height: 400px;
+    max-height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-text {
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+h1 {
+    background-color: rgb(29,53,87);
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 7px;
+    
+}
+.hero-text p {
+    background-color: rgb(69,123,157);
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+.activities-div {
+    background-color: rgb(241,250,238);
+    color: rgb(70,90,116);
+    text-align: center;
+}
+.activities-items {
+    display: flex;
+    justify-content:space-evenly;
+}
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    padding-bottom: 50px;
+}
+.activity img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+h2 {
+    margin-top: 0;
+    padding: 50px 0;
+}
+.guide-container {
+    margin: 50px 0;
+}
+.guide-card {
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgb(167,218,220);
+    color: rgb(70,90,116);
+    border-bottom: 10px solid rgb(70,90,116);
+    border-radius: 10px;
+}
+.guide-img {
+    margin: 25px 10px 25px 25px;
+    height: 250px;
+    width: 175px;
+    border-radius: 15px;
+    align-self: center;
+}
+.guide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.guide > * {
+    margin: 10px;
+    text-align: center;
+}
